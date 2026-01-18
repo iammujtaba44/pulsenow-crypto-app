@@ -146,7 +146,7 @@ class MarketDataProvider with ChangeNotifier, MarketDataProviderMixin {
         if (result.lastUpdated != null) AppStrings.analyticsLastUpdatedKey: result.lastUpdated!.toIso8601String(),
       },
     );
-    _setState(MarketDataState.success);
+    _setState(_marketData.isEmpty ? MarketDataState.empty : MarketDataState.success);
   }
 
   @override
