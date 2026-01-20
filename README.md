@@ -1,4 +1,4 @@
-# PulseNow Flutter Assessment
+# PulseNow Flutter Crypto app sample
 
 This is the Flutter application for the PulseNow assessment. The required features are implemented, with additional enhancements listed below.
 
